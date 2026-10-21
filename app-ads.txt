@@ -1,0 +1,3 @@
+# app-ads.txt de Orarpix (https://orarpix.com/app-ads.txt)
+# Pega aquí las líneas que da el panel de Unity LevelPlay
+# (Setup → app-ads.txt) y no borres ninguna al añadir redes nuevas.
