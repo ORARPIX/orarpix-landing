@@ -79,7 +79,7 @@ section { padding: 64px 0; }
 /* Hero */
 .hero { padding-top: 24px; text-align: center; }
 .hero .logo { width: min(680px, 100%); height: auto; margin: -24px auto 8px; }
-.hero h1 { max-width: 16ch; margin-left: auto; margin-right: auto; }
+.hero h1 { max-width: 22ch; margin-left: auto; margin-right: auto; }
 .hero .lead { font-size: 1.2rem; max-width: 34ch; margin: 0 auto 28px; }
 
 /* Tarjetas */
@@ -145,5 +145,5 @@ footer small { opacity: .85; font-size: .95rem; }
 .gato.arwen .franja { background: var(--arwen); }
 .gato.pixie .franja { background: var(--pixie); }
 .gato h3 { font-size: 1.6rem; }
-.doc .idioma { margin: 0 0 12px; text-align: right; font-family: var(--f-titulo); font-weight: 600; }
 .doc code { font-size: .95em; background: #fff; border: 1px solid var(--arwen); border-radius: 6px; padding: 0 5px; word-break: break-all; }
+.top nav a.lang { border: 2px solid var(--pixie); }
