@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){var p="en",o="../index.html",w;try{w=localStorage.getItem("orarpix-lang")}catch(e){}if(w!=="es"&&w!=="en"){w="en";var l=navigator.languages||[navigator.language||""];for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase().slice(0,2);if(c==="es"||c==="en"){w=c;break}}}if(w===p)return;var h=location.hash,m={"#borrado":"#deletion","#deletion":"#borrado","#consentimiento":"#consent","#consent":"#consentimiento"};location.replace(o+(m[h]||h))})();</script>
   <title>Support · Orarpix</title>
   <meta name="description" content="Help and support for Orarpix games.">
   <meta name="theme-color" content="#FFF4E0">
   <link rel="alternate" hreflang="es" href="https://orarpix.com/support/">
   <link rel="alternate" hreflang="en" href="https://orarpix.com/support/en/">
+  <link rel="alternate" hreflang="x-default" href="https://orarpix.com/support/en/">
   <link rel="icon" type="image/svg+xml" href="../../assets/img/orarpix-icono.svg">
   <link rel="apple-touch-icon" href="../../assets/img/orarpix-icono-512.png">
   <link rel="stylesheet" href="../../assets/css/styles.css">
@@ -24,7 +26,7 @@
         <a href="../../en/index.html#juegos">Games</a>
         <a href="../../privacy/en/index.html">Privacy</a>
         <a href="../../support/en/index.html">Support</a>
-        <a class="lang" href="../index.html" hreflang="es" lang="es">Español</a>
+        <a class="lang" href="../index.html" hreflang="es" lang="es" onclick="try{localStorage.setItem('orarpix-lang','es')}catch(e){}">Español</a>
       </nav>
     </div>
   </header>

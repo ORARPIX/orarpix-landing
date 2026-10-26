@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){var p="es",o="en/index.html",w;try{w=localStorage.getItem("orarpix-lang")}catch(e){}if(w!=="es"&&w!=="en"){w="en";var l=navigator.languages||[navigator.language||""];for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase().slice(0,2);if(c==="es"||c==="en"){w=c;break}}}if(w===p)return;var h=location.hash,m={"#borrado":"#deletion","#deletion":"#borrado","#consentimiento":"#consent","#consent":"#consentimiento"};location.replace(o+(m[h]||h))})();</script>
   <title>Orarpix · Estudio independiente de juegos</title>
   <meta name="description" content="Estudio independiente de juegos en Colombia. Primero Android, pronto iOS y después Steam.">
   <meta name="theme-color" content="#FFF4E0">
   <link rel="alternate" hreflang="es" href="https://orarpix.com/">
   <link rel="alternate" hreflang="en" href="https://orarpix.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://orarpix.com/en/">
   <meta property="og:title" content="Orarpix">
   <meta property="og:description" content="Estudio independiente de juegos en Colombia. Primero Android, pronto iOS y después Steam.">
   <meta property="og:image" content="https://orarpix.com/assets/img/orarpix-icono-512.png">
@@ -28,7 +30,7 @@
         <a href="#historia">Historia</a>
         <a href="#juegos">Juegos</a>
         <a href="#contacto">Contacto</a>
-        <a class="lang" href="en/index.html" hreflang="en" lang="en">English</a>
+        <a class="lang" href="en/index.html" hreflang="en" lang="en" onclick="try{localStorage.setItem('orarpix-lang','en')}catch(e){}">English</a>
       </nav>
     </div>
   </header>
